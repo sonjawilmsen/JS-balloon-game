@@ -1,0 +1,51 @@
+
+body {
+   background-image: url("https://images5.alphacoders.com/445/445906.jpg");
+   background-size: cover;
+   text-align: center;
+   cursor: crosshair;
+ }
+
+ .balloon {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+ }
+
+.inflatable {
+  width: 180px;
+  height: 200px;
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  /*-webkit-animation-name: example;
+  -webkit-animation-duration: 4s;
+  animation-name: example;
+  animation-duration: 4s;*/
+  border-radius: 95px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+/* Chrome, Safari, Opera */
+/*@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}*/
+
+.string {
+  width: 2px;
+  height: 100px;
+  background-color: brown;
+  margin-left: 90px;
+}
+
+.counter {
+  margin-top: 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 45px;
+  color:  orange;
+  border: 2px solid orange;
+  padding: 1px 4px;
+  padding-top: 6px;
+  border-radius: 25px;
+  margin: auto;
+  width: 50px;
+}

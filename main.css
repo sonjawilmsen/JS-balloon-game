@@ -1,6 +1,8 @@
 
 body {
-   background-image: url("https://images5.alphacoders.com/445/445906.jpg");
+   /*background-image: url("https://images5.alphacoders.com/445/445906.jpg");*/
+   /*background-image: url("http://wallpapermad.com/wp-content/uploads/2016/09/mario-hd-wallpaper-HD7-1.jpg");*/
+   background-image: url("http://www.softendo.com/images/beautiful-mario-bros-wallpaper.jpg");
    background-size: cover;
    text-align: center;
    cursor: crosshair;
@@ -17,22 +19,7 @@ body {
   height: 100px;
   background-image: url("http://d33wubrfki0l68.cloudfront.net/4f1966866771e29be19a3d7ee9bd4f09064b463e/07d79/mushroom.png");
   background-size: 100px;
-  /*background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
-  /*-webkit-animation-name: example;
-  -webkit-animation-duration: 4s;
-  animation-name: example;
-  animation-duration: 4s;*/
-  /*border-radius: 95px;
-  box-shadow: 5px 5px 5px grey;*/
 }
-
-
-/*.string {
-  width: 2px;
-  height: 100px;
-  background-color: brown;
-  margin-left: 90px;
-}*/
 
 
 .counter {
@@ -41,9 +28,56 @@ body {
   font-size: 45px;
   color:  orange;
   border: 2px solid orange;
-  padding: 1px 4px;
+  padding: 7px 25px;
   padding-top: 6px;
   border-radius: 25px;
   margin: auto;
   width: 50px;
+}
+
+.score-box {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.score-box .replay,
+.score-box .label {
+  visibility: hidden;
+}
+
+.score-box.ready {
+  top: 20%;
+}
+
+.score-box.ready .replay,
+.score-box.ready .label {
+  visibility: visible;
+}
+
+.score-box .replay {
+  border: 1px solid #ffffff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 35px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #79ff9e;
+  display: block;
+  margin: 20px;
+}
+
+.score-box.ready .badge {
+  width: 350px;
+  height: 200px;
+  padding: 15px;
+  margin: 0px auto;
+  border-radius: 15px;
+  border: 4px solid #fff;
+  background-color: rgba(244, 234, 102, 0.62);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.62);
+  color: #ffffff
 }

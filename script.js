@@ -17,6 +17,15 @@ function start () {
     });
     balloonCopy.animate({bottom: "100%", left: Math.random() * 100 + "%" }, 16000 - Math.random() * 4000);
     };
+
+    window.setTimeout(function() {
+      $('.score-box').addClass('ready');
+      $('.replay').bind('click', function(e) {
+        e.preventDefault();
+        window.location.reload();
+      });
+    }, 13000);
+
   balloon.remove();
 }
 

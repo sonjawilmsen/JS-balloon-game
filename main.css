@@ -26,11 +26,6 @@ body {
   box-shadow: 5px 5px 5px grey;*/
 }
 
-/* Chrome, Safari, Opera */
-/*@-webkit-keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-}*/
 
 /*.string {
   width: 2px;
@@ -38,6 +33,7 @@ body {
   background-color: brown;
   margin-left: 90px;
 }*/
+
 
 .counter {
   margin-top: 20px;

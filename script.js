@@ -2,6 +2,7 @@ var balloon = $(".balloon");
 var counter = 0;
 
 
+
 function start () {
   for(var i=0; i<10; i++){
     var balloonCopy = balloon.clone();
@@ -17,11 +18,6 @@ function start () {
     };
   balloon.remove();
 }
-
-
-// balloon_copy.click(function(){
-//           pop_sound.play();
-//
 
 
 function preloadPopSound(){
